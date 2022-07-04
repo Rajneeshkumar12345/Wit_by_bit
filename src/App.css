@@ -1,38 +1,188 @@
-.App {
+@import 'antd/dist/antd.css';
+
+.App{
   text-align: center;
-}
+  position: relative;
+  top: 60px;
+  left: 19em;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(167, 158, 158);
+  position: relative;
+  width: 1080px;
+  height: 970px;
+  border-radius: 15px;
+  
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+background: #F9FCFE;
 }
+/* .App{
+  box-sizing: border-box;
+  position: absolute;
+  width: 1104px;
+  height: 854px;
+  left: 312px;
+  top: 106px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background: #FFFFFF;
+  border: 1px solid #E2E5EB;
+  border-radius: 10px;
+
+  
+} */
+.classSpace {
+  height: 1065px;
+  width: 18%;
+  border: 1px solid rgb(68, 52, 189);
+  border-radius: 5px;
+  color: #242424;
+  position: absolute;
+  top: 1px;
+
+
+
+color: #242424;
+left:5px;
+
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* .App-header {
+  /* background-color: #282c34; */
+  /* height: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  /* color: white; */
+ */
+
+.total{
+  display: flex;
+  position: absolute;
+  width: 288px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 5px -3px rgba(0, 0, 0, 0.05), 0px 8px 10px 1px rgba(0, 0, 0, 0.05), 0px 3px 14px 2px rgba(0, 0, 0, 0.05);
+}
+.App header{
+  width: 10em;
+}
+.addStudent>button {
+   width: 100px;
+    left: 87em;
+    top: 37px;
+    border-radius: 8px;
+    height: 35px;
+    color: blue;
+    font-weight: 700;
+
+}
+.classSpace>h1 {
+  color: #2CA4D8;
+  text-align: center;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 39px;
+}
+.dashboard{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.courses{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.students{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 }
+
+.exams{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.results{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.noticeboard{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.liveclasses{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.notifications{
+  font-style: normal;
+  color: #242424;
+  padding: 20px;
+  margin-left: 70px;
+  font-weight: 3px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.student {
+ color: blue;
+ margin-left: 270px;
+ font-weight: 600;
+ font-size: 30px;
+ line-height: 0px;
+}
+
+
