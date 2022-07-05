@@ -122,7 +122,7 @@ function App() {
   const onAddStudent = (e) => {
     const randomNumber = parseInt(Math.random() * 1000);
     const newStudent = {
-      id: this.e + 1,
+      id: randomNumber,
       name: "Name " + randomNumber,
       class: randomNumber + "@gmail.com",
       result: "Address " + randomNumber,
@@ -193,6 +193,7 @@ function App() {
             resetEditing();
           }}
         >
+          <h5>STUDENT NAME*</h5>
           <Input
             value={editingStudent?.name}
             onChange={(e) => {
@@ -201,6 +202,7 @@ function App() {
               });
             }}
           />
+          <h5>CLASS*</h5>
           <Input
             value={editingStudent?.class}
             onChange={(e) => {
@@ -209,6 +211,7 @@ function App() {
               });
             }}
           />
+          <h5>GRADE*</h5>
           <Input
             value={editingStudent?.result}
             onChange={(e) => {
